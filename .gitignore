@@ -1,1 +1,5 @@
-# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea/
+SquareRoot_v1.iml
+out/
+target/

@@ -9,7 +9,6 @@
     <h1>Enter your coefficients</h1>
     <form method="post" action="/calculate">
         <p><input type="text" name="coefA" value="" placeholder="Coefficient 'a'" required pattern="^-?[0-9]{1,3}$" title="Enter value 123 or -123. The maximum 999 and minimum value -999" /><label >*</label></p>
-        <span class="form_hint">text</span>
         <p><input type="text" name="coefB" value="" placeholder="Coefficient 'b'" required pattern="^-?[0-9]{1,3}$" title="Enter value 123 or -123. The maximum 999 and minimum value -999"/><label >*</label></p>
         <p><input type="text" name="coefC" value="" placeholder="Coefficient 'c'" required pattern="^-?[0-9]{1,3}$" title="Enter value 123 or -123. The maximum 999 and minimum value -999"/><label >*</label></p>
         <p class="submit"><input type="submit" name="calculate" value="Сalculate"/></p>

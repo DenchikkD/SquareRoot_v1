@@ -26,7 +26,7 @@
         <label class="labelResult"><c:out value="${result_root.rootOne}"/></label>
         <label class="labelResult"><c:out value="${result_root.rootTwo}"/></label>
     </b></div>
-    <h3><c:out value="${no_roots}"/></h3>
+    <h1 style="width: 100%; text-align: center; color: red"><c:out value="${no_roots}"/></h1>
     <c:forEach var="roots" items="${all_root}">
         <div>
             <label class="labelResult">${roots.coefA}</label>
